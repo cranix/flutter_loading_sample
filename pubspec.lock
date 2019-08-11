@@ -44,9 +44,9 @@ packages:
   flutter_loading:
     dependency: "direct main"
     description:
-      name: flutter_loading
-      url: "https://pub.dartlang.org"
-    source: hosted
+      path: "../flutter_loading"
+      relative: true
+    source: path
     version: "0.0.2"
   flutter_test:
     dependency: "direct dev"

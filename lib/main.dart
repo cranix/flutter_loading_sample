@@ -43,7 +43,7 @@ class _MyHomePageState extends State<MyHomePage> with LoadingStateMixin {
 
   @override
   Widget build(BuildContext context) {
-    return loadingContainer(
+    return buildLoadingContainer(
       child: Scaffold(
         appBar: AppBar(
           title: Text(widget.title),
